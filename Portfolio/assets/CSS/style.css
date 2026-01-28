@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: #F5f5f5;
+    color: #1A1A1A;
+
+}
+
+/* Header starts */
+
+header {
+    padding-top: 90px;
+}
+
+
+.container{
+    padding: 10px 10%;
+    background-color: #f5f5f5;
+    box-shadow:  0 8px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+nav{
+    
+    position: fixed;
+    top: 0;
+    left: 10;
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    background-color: #f5f5f5;
+    padding: 10px 5%;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    
+
+}
+
+.logo{
+    width: 75px;
+    border-radius: 50%;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color: #1f3c88;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}
+
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #1f3c88;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    min-height: 80vh;
+
+}
+
+.intro-text{
+    width: 55%;
+
+}
+.intro-text h1{
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #1A1A1A;
+}
+.intro-text h2{
+    color: #1f3c88;
+}
+
+.intro-text p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1A1A1A;
+
+}
+
+.intro-image{
+    width: 70%;
+    text-align: right;
+
+}
+.intro-image img{
+    width: 310px;
+    border-radius: 50%;
+    
+}
+.intro-image img{
+    box-shadow: 0 8px 20px #1f3c88;
+    
+
+}
+/* header ends here */
+
+.learning{
+  padding: 60px 80px;
+  text-align: center;
+  background: #1f3c88;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+ 
+ 
+ 
+}
+
+
+.learning-about h1{
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.learning-topics{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.learning-topics h2{
+  background: #ffffff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  font-size: 15px;
+  color: #1A1A1A;
+}
+
+.about{
+   
+    margin-bottom: 10px;
+   padding: 60px 80px;
+   background: #F5f5f5;
+   box-shadow: 0 4px 15px rgba(0,0,0,0.15) ;
+  
+}
+
+.aboutme{
+    text-align: center;
+    
+    
+    
+
+}
+
+.aboutme h1{
+    color: #1A1A1A;
+   margin: 2px 2px;
+
+    
+}
+
+.aboutme-text{
+    margin: 20px 2px;
+    line-height: 40px;
+    text-align: center;
+    font-size: large;
+   
+}
+
+.readmore{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+
+}
+.readmore button{
+    cursor: pointer;
+    
+}
+.readmore button a{
+   text-decoration: none;
+   background: #ffffff;
+   color: #1A1A1A;
+   padding: 15px 25px;
+   border-radius: 8px;
+   box-shadow: 0 4px 10px #1f3c88;
+   font-size: 13px;
+   cursor: pointer;
+
+}
+
+/* .readmore{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+.readmore button{
+   text-decoration: none;
+   background: #ffffff;
+   color: #1A1A1A;
+   padding: 15px 25px;
+   border-radius: 8px;
+   box-shadow: 0 4px 10px #F5f5f5;
+   font-size: 11px;
+   cursor: pointer;
+   
+} */
+
+
+
+/* .aboutme{
+    margin-top: 50px;
+} */
