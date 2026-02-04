@@ -121,7 +121,7 @@ nav ul li a:hover::after{
 
 }
 .intro-image img{
-    width: 310px;
+    width: 60%;
     border-radius: 50%;
     
 }
@@ -130,6 +130,30 @@ nav ul li a:hover::after{
     
 
 }
+
+.mycv{
+    border: none;
+    padding: 15px 28px;
+    margin: 4px 2px; 
+    
+}
+.mycv button {
+    cursor: pointer;
+    border: none;         
+    background: none;      
+    padding: 0;            
+}
+
+.mycv button a{
+   text-decoration: none;
+   background-color: #1f3c88;
+   color: #ffffff;
+   padding: 10px 15px;
+   border-radius: 8px;
+   box-shadow: none;
+   font-size: 13px;
+   cursor: pointer;
+} 
 /* header ends here */
 
 .learning{
@@ -180,12 +204,14 @@ nav ul li a:hover::after{
     
     
     
+    
 
 }
 
 .aboutme h1{
     color: #1A1A1A;
    margin: 2px 2px;
+   
 
     
 }
@@ -207,44 +233,19 @@ nav ul li a:hover::after{
 }
 .readmore button{
     cursor: pointer;
+    border: none;         
+    background: none;      
+    padding: 0;  
     
 }
 .readmore button a{
    text-decoration: none;
-   background: #ffffff;
-   color: #1A1A1A;
-   padding: 15px 25px;
+    background-color: #1f3c88;
+    color: #ffffff;
+   padding: 10px 15px;
    border-radius: 8px;
-   box-shadow: 0 4px 10px #1f3c88;
+   box-shadow: none;
    font-size: 13px;
    cursor: pointer;
 
 }
-
-/* .readmore{
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #1A1A1A;
-}
-.readmore button{
-   text-decoration: none;
-   background: #ffffff;
-   color: #1A1A1A;
-   padding: 15px 25px;
-   border-radius: 8px;
-   box-shadow: 0 4px 10px #F5f5f5;
-   font-size: 11px;
-   cursor: pointer;
-   
-} */
-
-
-
-/* .aboutme{
-    margin-top: 50px;
-} */
