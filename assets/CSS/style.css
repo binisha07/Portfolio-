@@ -275,10 +275,25 @@ img {
   color: #1f3c88;
   margin-bottom: 10px;
 }
+/* Mobile responsive for skill section*/
+@media (max-width: 768px) {
+
+  .skills {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .icons-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ------------------------------------skills ection ends------------------------- */
+
 /* ---------------------------------- Contact Section ------------------------------------ */
 .contact-section {
   padding: 80px 10%;
   text-align: center;
+
 }
 
 .contact-section h1 {
@@ -330,20 +345,16 @@ img {
   cursor: pointer;
 }
 
-
-/* Mobile responsive for skill section*/
-@media (max-width: 768px) {
-
-  .skills {
-    width: 90%;
-    padding: 25px;
-  }
-
-  .icons-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* -----------------------------Footer--------------------------------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f3c88;
+  color: white;
+  margin-top: 50px;
 }
-/* ------------------------------------skills ection ends------------------------- */
+
+
 
 /* ------------------Mobile responsive upto about me section starting------------------------*/
 @media (max-width: 768px) {
