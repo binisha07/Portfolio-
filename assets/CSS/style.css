@@ -199,8 +199,9 @@ img {
 }
 
 .aboutme h1{
-    color: #1f3c88;
-   margin: 2px 2px;
+  color: #1f3c88;
+  margin: 2px 2px;
+  font-weight: 700;
 }
 
 .aboutme-text{
@@ -208,10 +209,7 @@ img {
     line-height: 1.7;   
     text-align: center;
     font-size: 16px;   
-
 }
-
-
 
 .readmore{
     text-align: center;
@@ -230,41 +228,32 @@ img {
 
 /* ----------------------------Skills section starts--------------------------------- */
 .skills-section {
-  display: flex;
   min-height: 400px;
+
 }
 
-
-.skills-left {
-  width: 40%;
-  background-color: #1f3c88;
-  color: white;
-  padding: 40px;
-}
-
-.skills-left h2 {
+.skills-section h1{
+  margin-top: 35px;
   margin-bottom: 20px;
-}
-
-.skill-box {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 12px;
-  margin-bottom: 12px;
-  border-radius: 8px;
+  color: #1f3c88;
   text-align: center;
+  font-weight: 700;
+
 }
 
-
-.skills-right {
+.skills {
   width: 60%;
   padding: 40px;
-  background-color: #f5f5f5;
+  background-color: #1f3c88;
+  margin: 0 auto;   
+  border-radius: 12px;
 }
 
 .icons-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  align-items: center;
 }
 
 .icon-box {
@@ -274,6 +263,7 @@ img {
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s;
+  align-items: center;
 }
 
 .icon-box:hover {
@@ -285,16 +275,68 @@ img {
   color: #1f3c88;
   margin-bottom: 10px;
 }
+/* ---------------------------------- Contact Section ------------------------------------ */
+.contact-section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f3c88;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  text-align: left;
+  line-height: 50px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input{
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  
+}
+
+.contact-form button {
+  background: #1f3c88;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 
 /* Mobile responsive for skill section*/
 @media (max-width: 768px) {
-  .skills-section {
-    flex-direction: column;
-  }
 
-  .skills-left,
-  .skills-right {
-    width: 100%;
+  .skills {
+    width: 90%;
+    padding: 25px;
   }
 
   .icons-grid {

@@ -9,6 +9,7 @@
 
 </head>
 <body>
+    <script src="assets/script.js"></script>
     <header>
         <div class="container">
             <nav>
@@ -103,15 +104,10 @@
         <!-- ------------------------------skills------------------------------- -->
          
         <section class="skills-section">
-            <div class="skills-left">
-                <h2>My Skills</h2>
-                <div class="skill-box">HTML</div>
-                <div class="skill-box">CSS</div>
-                <div class="skill-box">JavaScript Basics</div>
-                <div class="skill-box">Git & GitHub</div>
-                <div class="skill-box">Linux Basics</div>
+            <div>
+                <h1>My Skills</h1>
             </div>
-            <div class="skills-right">
+            <div class="skills">
                 <div class="icons-grid">
 
                     <div class="icon-box">
@@ -164,6 +160,28 @@
 
 
          </section>
+
+
+         <!-- ----------------------------Contact section--------------------------------- -->
+          <section class="contact-section">
+            <h1>Contact Me</h1>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><strong><i class="fas fa-envelope"></i> Email: </strong>neupanebinisha082@gmail.com</p>
+                    <p><strong><i class="fas fa-phone"></i> Contact: </strong> +977-9766511741</p>
+                    <p><strong><i class="fas fa-map-marker-alt"></i> Location: </strong> Kathmandu, Nepal</p>
+                </div>
+
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea id="message" placeholder=" Your Message Here"></textarea>
+                <button type="submit">Send Message</button>
+                <p id="formMessage"></p>
+            </form>
+        </section>
+
+
     </main>
 </body>
 </html>
