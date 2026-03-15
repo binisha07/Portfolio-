@@ -86,6 +86,7 @@ nav ul li a:hover::after{
     width: 100px;
 }
 
+/* ----------------Hero section--------------- */
 .intro{
     display: flex;
     align-items: center;
@@ -152,6 +153,8 @@ img {
 /* header ends here */
 
 /* Main starts here */
+
+/* ----------Learning Part------------- */
 .learning{
   padding: 60px 80px;
   text-align: center;
